@@ -1,0 +1,1 @@
+SELECT categoria, AVG(precio) AS precio_promedio FROM productos GROUP BY categoria;

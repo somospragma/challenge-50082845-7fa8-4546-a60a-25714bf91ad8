@@ -1,0 +1,1 @@
+SELECT * FROM ventas WHERE fecha_venta > DATE_SUB(CURDATE(), INTERVAL 30 DAY) ORDER BY fecha_venta;

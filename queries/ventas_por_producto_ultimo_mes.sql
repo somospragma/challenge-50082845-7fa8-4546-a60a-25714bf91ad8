@@ -1,0 +1,1 @@
+SELECT producto_id, COUNT(*) AS total_ventas FROM ventas WHERE fecha_venta > DATE_SUB(CURDATE(), INTERVAL 30 DAY) GROUP BY producto_id;
